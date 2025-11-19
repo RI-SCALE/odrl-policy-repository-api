@@ -1,0 +1,19 @@
+# 1. Default Line Ending Normalization
+* text=auto
+
+# 2. Explicit Text Files (Specs & Docs)
+*.yaml text diff=yaml
+*.yml  text diff=yaml
+*.json text
+*.md   text diff=markdown
+LICENSE text
+.gitignore text
+
+# 3. Binary Files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+*.ico binary
+*.pdf binary
+*.zip binary
